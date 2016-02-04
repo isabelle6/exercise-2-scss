@@ -35,14 +35,7 @@ body {
 }
 
 .btn {
-    font-size: 3em;
-    padding: .5em;
-    margin: .5em;
-    background-color: $orange;
-    color: black;
-    text-decoration: none;
-    vertical-align: middle;
-    border-radius: 50%;
+    @include button($orange);
 }
 
 .btn i {
