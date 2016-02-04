@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@-moz-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-ms-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-o-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-webkit-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@viewport {
+  width: device-width;
+  scale: 1;
+}
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #99cccc;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.title {
+  padding: .5em;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  margin-bottom: 2em;
+}
+
+.btn {
+  font-size: 3em;
+  padding: .5em;
+  margin: .5em;
+  background-color: #cc6600;
+  color: black;
+  text-decoration: none;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.btn i {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  background-color: #ffcc66;
+}
+
+.btn:hover
+.icon-rock {
+  color: #808080;
+}
+
+.btn:hover
+.icon-paper {
+  color: #fff;
+}
+
+.btn:hover
+.icon-scissors {
+  color: #3399cc;
+}
